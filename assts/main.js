@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',function(){var l=document.getElementById('navlinks');if(l){l.addEventListener('click',function(e){if(e.target.tagName==='A'&&innerWidth<=900)l.classList.remove('open')})}});
