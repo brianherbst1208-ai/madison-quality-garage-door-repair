@@ -1,0 +1,10 @@
+{
+  "name": "madison-quality-garage-door-repair",
+  "version": "1.0.0",
+  "description": "Madison Quality Garage Door Repair website",
+  "scripts": {
+    "dev": "npx --yes serve@latest .",
+    "build": "node -e \"const fs=require('fs'),p=require('path');fs.mkdirSync('dist',{recursive:true});fs.readdirSync('.').forEach(f=>{if(f.endsWith('.html'))fs.copyFileSync(f,p.join('dist',f))});fs.cpSync('assets',p.join('dist','assets'),{recursive:true});fs.copyFileSync('CNAME',p.join('dist','CNAME'));fs.copyFileSync('robots.txt',p.join('dist','robots.txt'));fs.copyFileSync('sitemap.xml',p.join('dist','sitemap.xml'))\"",
+    "preview": "npx --yes serve@latest dist"
+  }
+}
