@@ -123,8 +123,9 @@ img { max-width: 100%; height: auto; display: block; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(21,33,46,.2) 0%, rgba(26,86,219,.2) 100%);
+  background: linear-gradient(135deg, rgba(21, 33, 46, 0.9) 0%, rgba(26, 86, 219, 0.75) 100%);
   z-index: 1;
+}
 }.hero__inner { position: relative; z-index: 2; max-width: var(--max); margin: 0 auto; padding: 90px 20px; }
 .hero__eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; font-weight: 600; opacity: .9; }
 .hero h1 { color: #fff; margin: 10px 0 16px; max-width: 18ch; }
