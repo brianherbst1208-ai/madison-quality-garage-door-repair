@@ -118,7 +118,7 @@ img { max-width: 100%; height: auto; display: block; }
 /* ---------- hero ---------- */
 .hero {
   position: relative;
-  background: linear-gradient(135deg, rgba(21, 33, 46, 0.75) 0%, rgba(26, 86, 219, 0.55) 100%), url('images/hero.jpg') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(21, 33, 46, 0.75) 0%, rgba(26, 86, 219, 0.55) 100%), url('assets/hero-image.jpg') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
 }
